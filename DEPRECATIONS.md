@@ -11,7 +11,7 @@ We suggest that you update your code to use [ES2015 template strings](http://bab
 For example, if you have the following `fmt` uses:
 
 ```javascript
-import { fmt } from "@ember/string";
+import { fmt } from "@ember/string3";
 
 let firstName = "John";
 let lastName = "Doe";
@@ -23,7 +23,7 @@ fmt("Hello %@2, %@1", firstName, lastName); // "Hello Doe, John"
 You can instead use the following template strings:
 
 ```javascript
-import { fmt } from "@ember/string";
+import { fmt } from "@ember/string3";
 
 let firstName = "John";
 let lastName = "Doe";

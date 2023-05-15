@@ -1,5 +1,5 @@
 import { module } from 'qunit';
-import { underscore } from '@ember/string';
+import { underscore } from '@ember/string3';
 import createTestFunction from '../helpers/create-test-function';
 
 module('underscore');

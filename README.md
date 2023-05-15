@@ -1,4 +1,4 @@
-@ember/string [![CI Build](https://github.com/emberjs/ember-string/actions/workflows/ci-build.yml/badge.svg)](https://github.com/emberjs/ember-string/actions/workflows/ci-build.yml)
+@ember/string3 [![CI Build](https://github.com/emberjs/ember-string/actions/workflows/ci-build.yml/badge.svg)](https://github.com/emberjs/ember-string/actions/workflows/ci-build.yml)
 ==============================================================================
 
 A set of utilities to transform strings extracted from the core of Ember.
@@ -16,7 +16,7 @@ Installation
 ------------------------------------------------------------------------------
 
 ```
-ember install @ember/string
+ember install @ember/string3
 ```
 
 
@@ -34,7 +34,7 @@ import {
   decamelize,
   underscore,
   w,
-} from '@ember/string'
+} from '@ember/string3'
 ```
 
 For more documentation, consult https://emberjs.com/api/ember/release/classes/String.

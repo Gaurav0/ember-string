@@ -1,5 +1,5 @@
 import { module } from 'qunit';
-import { camelize } from '@ember/string';
+import { camelize } from '@ember/string3';
 import createTestFunction from '../helpers/create-test-function';
 
 module('camelize');

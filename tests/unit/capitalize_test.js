@@ -1,5 +1,5 @@
 import { module } from 'qunit';
-import { capitalize } from '@ember/string';
+import { capitalize } from '@ember/string3';
 import createTestFunction from '../helpers/create-test-function';
 
 module('capitalize');
