@@ -1,6 +1,6 @@
 /* eslint-disable no-useless-escape */
 /**
- @module @ember/string
+ @module @ember/string3
  */
 import Cache from './cache';
 import { deprecate } from '@ember/debug';
@@ -99,7 +99,7 @@ const DECAMELIZE_CACHE = new Cache<string, string>(1000, (str) =>
   is mostly useful when applied to the `String.prototype`.
 
   ```javascript
-  import { w } from '@ember/string';
+  import { w } from '@ember/string3';
 
   w("alpha beta gamma").forEach(function(key) {
     console.log(key);
@@ -123,7 +123,7 @@ export function w(str: string): string[] {
   Converts a camelized string into all lower case separated by underscores.
 
   ```javascript
-  import { decamelize } from '@ember/string';
+  import { decamelize } from '@ember/string3';
 
   decamelize('innerHTML');          // 'inner_html'
   decamelize('action_name');        // 'action_name'
@@ -144,7 +144,7 @@ export function decamelize(str: string): string {
   Replaces underscores, spaces, or camelCase with dashes.
 
   ```javascript
-  import { dasherize } from '@ember/string';
+  import { dasherize } from '@ember/string3';
 
   dasherize('innerHTML');                // 'inner-html'
   dasherize('action_name');              // 'action-name'
@@ -166,7 +166,7 @@ export function dasherize(str: string): string {
   Returns the lowerCamelCase form of a string.
 
   ```javascript
-  import { camelize } from '@ember/string';
+  import { camelize } from '@ember/string3';
 
   camelize('innerHTML');                   // 'innerHTML'
   camelize('action_name');                 // 'actionName'
@@ -189,7 +189,7 @@ export function camelize(str: string): string {
   Returns the UpperCamelCase form of a string.
 
   ```javascript
-  import { classify } from '@ember/string';
+  import { classify } from '@ember/string3';
 
   classify('innerHTML');                   // 'InnerHTML'
   classify('action_name');                 // 'ActionName'
@@ -212,7 +212,7 @@ export function classify(str: string): string {
   form of a string.
 
   ```javascript
-  import { underscore } from '@ember/string';
+  import { underscore } from '@ember/string3';
 
   underscore('innerHTML');                 // 'inner_html'
   underscore('action_name');               // 'action_name'
@@ -234,7 +234,7 @@ export function underscore(str: string): string {
   Returns the Capitalized form of a string
 
   ```javascript
-  import { capitalize } from '@ember/string';
+  import { capitalize } from '@ember/string3';
 
   capitalize('innerHTML')                 // 'InnerHTML'
   capitalize('action_name')               // 'Action_name'
@@ -253,20 +253,20 @@ export function capitalize(str: string): string {
 }
 
 /*
-  The following are implemented here to give users adding `@ember/string` to
+  The following are implemented here to give users adding `@ember/string3` to
   their projects a useful error message. The `ember-source` implementation of
-  `@ember/string` is clobbered by adding this addon, and so the deprecation of
+  `@ember/string3` is clobbered by adding this addon, and so the deprecation of
   the import path is not triggered. This error message is intended to help
   users discover what they need to change.
 */
 export function htmlSafe(str: string): void {
   throw new Error(
-    'htmlSafe is not implemented in the `@ember/string` package. Please import from `@ember/template` instead.'
+    'htmlSafe is not implemented in the `@ember/string3` package. Please import from `@ember/template` instead.'
   );
 }
 
 export function isHTMLSafe(str: any | null | undefined): void {
   throw new Error(
-    'isHTMLSafe is not implemented in the `@ember/string` package. Please import from `@ember/template` instead.'
+    'isHTMLSafe is not implemented in the `@ember/string3` package. Please import from `@ember/template` instead.'
   );
 }

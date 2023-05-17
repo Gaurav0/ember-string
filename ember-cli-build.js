@@ -7,7 +7,7 @@ module.exports = function (defaults) {
     // Add options here
     'ember-cli-babel': {
       emberModulesAPIPolyfillBlacklist: {
-        ['@ember/string']: [
+        ['@ember/string3']: [
           'fmt',
           'w',
           'getStrings',

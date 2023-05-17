@@ -27,10 +27,10 @@
         "./tests/dummy/app/*",
         "./app/*"
       ],
-      "@ember/string": [
+      "@ember/string3": [
         "./addon"
       ],
-      "@ember/string/*": [
+      "@ember/string3/*": [
         "./addon/*"
       ],
       "*": [

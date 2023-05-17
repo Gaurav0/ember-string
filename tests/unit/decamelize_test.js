@@ -1,5 +1,5 @@
 import { module } from 'qunit';
-import { decamelize } from '@ember/string';
+import { decamelize } from '@ember/string3';
 import createTestFunction from '../helpers/create-test-function';
 
 module('decamelize');

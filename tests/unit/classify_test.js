@@ -1,5 +1,5 @@
 import { module } from 'qunit';
-import { classify } from '@ember/string';
+import { classify } from '@ember/string3';
 import createTestFunction from '../helpers/create-test-function';
 
 module('classify');

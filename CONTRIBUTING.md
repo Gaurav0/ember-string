@@ -3,7 +3,7 @@
 ## Installation
 
 * `git clone <repository-url>`
-* `cd @ember/string`
+* `cd @ember/string3`
 * `yarn install`
 
 ## Linting
